@@ -51,5 +51,3 @@ jobs:
 
     - name: Generate and submit dependency graph
       uses: gradle/actions/dependency-submission@v4
-      with:
-        # 这里可能需要确保所有提交的依赖项图配置都正确
